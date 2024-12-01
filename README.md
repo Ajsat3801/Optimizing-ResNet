@@ -2,6 +2,6 @@
 
 
 ## Directory Structure
-    - Benchmarking
-    - Models
-    - Training
+* **Benchmarking:** Contains the file for benchmarks
+* **Models:** Contains the models themselves
+* **Training:** Contains the notebooks used for training
