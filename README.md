@@ -23,8 +23,9 @@ pip install -r requirements.txt
 Each model has a dedicated notebook: 
 1) Basic ResNet26 model:  `Notebooks/ResNet26_base.ipynb`
 2) ResNet26 with Depthwise separable convolutions: `Notebooks/ResNet26_DS.ipynb`
-3) ResNet26 with Depthwise separable convolutions and SE blocks: `Notebooks/ResNet26_DS_SE.ipynb`
-4) Pruned ResNet26 with Depthwise separable convolutions: `Notebooks/ResNet26_DS_Pruned.ipynb`
+3) ResNet26 with Squeeze and Excitation: `Notebooks/ResNet26_SE.ipynb`
+4) ResNet26 with Depthwise separable convolutions and SE blocks: `Notebooks/ResNet26_DS_SE.ipynb`
+5) Pruned ResNet26 with Depthwise separable convolutions: `Notebooks/ResNet26_DS_Pruned.ipynb`
 
 ## Results
 
