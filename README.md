@@ -64,14 +64,7 @@ pip install -r requirements.txt
      ```
       python finetune.py --depth 50 --dataset cifar100
       ```
-  4) Finetuning Pruned Resnet with fixed epoch: `finetune_E.py`
-     ```
-      python finetune_E.py --depth 50 --dataset cifar100
-      ```
-  5) Finetuning Pruned Resnet with fixed Computaional budget: `finetune_B.py`
-     ```
-      python finetune_B.py --depth 50 --dataset cifar100
-      ```
+
 
 - **Soft Filter Norm pruning**
   1) Baseline ResNet50 model:  `main.py`
@@ -82,13 +75,10 @@ pip install -r requirements.txt
      ```
       python res50prune.py --depth 50 --dataset cifar100
       ```
-  3) Finetuning Pruned Resnet with fixed epoch: `finetune_E.py`
+
+  4) Finetuning Pruned Resnet: `finetune.py`
      ```
-      python finetune_E.py --depth 50 --dataset cifar100
-      ```
-  4) Finetuning Pruned Resnet with fixed Computaional budget: `finetune_B.py`
-     ```
-      python finetune_B.py --depth 50 --dataset cifar100
+      python finetune.py --depth 50 --dataset cifar100
       ```
 
 ## Results
