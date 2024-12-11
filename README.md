@@ -51,7 +51,7 @@ pip install -r requirements.txt
 ```
 
 ### Running the models
-- **Soft Filter Norm pruning**
+- **L1 Norm Pruning**
   1) Baseline ResNet50 model:  `main.py`
      ```
       python main.py --depth 50 --dataset cifar100
@@ -73,7 +73,7 @@ pip install -r requirements.txt
       python finetune_B.py --depth 50 --dataset cifar100
       ```
 
-  - **L1 Norm Pruning**
+- **Soft Filter Norm pruning**
   1) Baseline ResNet50 model:  `main.py`
      ```
       python main.py --depth 50 --dataset cifar100
