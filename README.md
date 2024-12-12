@@ -103,6 +103,4 @@ pip install -r requirements.txt
 
 Both L1 Norm and Unstructured Weight Level Pruning effectively reduced model complexity, improving computational efficiency, throughput, and latency. However, the use of Depthwise Separable Convolutions yielded unexpected results, as pruning these layers led to performance degradation rather than the anticipated improvements. This suggests that depthwise convolutions, already optimized for computational efficiency, may be sensitive to pruning, requiring a more nuanced approach to optimization. Overall, while pruning can be highly effective in reducing model size and enhancing performance, its impact varies depending on the architecture, and further exploration is needed to understand how pruning interacts with different model components.
 
-### Base ResNet26 model
-Output 
-![Alt text](https://github.com/Ajsat3801/HPML-Project/blob/main/Documentation/ResNet26_base_output.png "Architecture")
+
