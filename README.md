@@ -14,7 +14,8 @@ In addition, the project also explores the use of Depthwise Separable Convolutio
 
 ```
 ├── Documentation           // Contains images and results used for documentation  
-├── Models                  // Contains the trained models  
+├── L1_Norm_Pruning        // Contains files for implemneting L1-Norm Pruning
+├── weight_Pruning         // Contains files for implemneting Weight Pruning
 ├── Notebooks               // Contains notebooks for training and benchmarking the models  
 ```
 ## Project Milestones
