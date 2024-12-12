@@ -13,9 +13,10 @@ In addition, the project also explores the use of Depthwise Separable Convolutio
 ## Directory Structure
 
 ```
-├── Documentation           // Contains images and results used for documentation  
-├── L1_Norm_Pruning        // Contains files for implemneting L1-Norm Pruning
-├── weight_Pruning         // Contains files for implemneting Weight Pruning
+├── Documentation           // Contains images and results used for documentation
+├── Models
+  ├── L1_Norm_Pruning        // Contains files for implemneting L1-Norm Pruning
+  ├── weight_Pruning         // Contains files for implemneting Weight Pruning
 ├── Notebooks               // Contains notebooks for training and benchmarking the models  
 ```
 ## Project Milestones
