@@ -32,13 +32,13 @@ In addition, the project also explores the use of Depthwise Separable Convolutio
 - **Status:** Completed  
 - **Activities:**
   - Applied L1-norm pruning to remove filters based on their L1 norm.
-  - Tested the impact on accuracy and computational efficiency at different pruning levels (e.g., 30%, 60%, 90%).
+  - Tested the impact on accuracy and computational efficiency.
 
-### Milestone 3: Implement Soft Filter Norm Pruning
+### Milestone 3: Implement Unstructured Weight Level Pruning
 - **Status:** Completed  
 - **Activities:**
-  - Applied Soft Filter Norm pruning with a dynamic threshold to remove less important filters.
-  - Analyzed its effects on accuracy and efficiency compared to L1-norm pruning.
+  - Applied Unstructured Weight Level pruning to remove individual weights based on their magnitude.
+  - Analyzed its effects on efficiency compared to L1-norm pruning.
 
 ### Milestone 4: Evaluation and Analysis
 - **Status:** Completed  
@@ -98,7 +98,7 @@ pip install -r requirements.txt
 - **Unstructured Weight Level Pruning:**
   Showed significant reductions in computational time, including CPU and CUDA time, along with improved latency per batch and higher throughput.
 - **Depthwise Separable Convolutions:**
-  Contrary to expectations, applying pruning techniques to models using depthwise separable convolutions resulted in performance degradation rather than improvement. This suggests that pruning may interfere with the efficiency of depthwise convolutions, which are already optimized for reducing computation.
+  Contrary to expectations, applying pruning techniques to models using depthwise separable convolutions and squeeze and excitation blocks resulted in performance degradation rather than improvement. This suggests that pruning may interfere with the efficiency of depthwise convolutions, which are already optimized for reducing computation.
 
 ## Conclusion
 
